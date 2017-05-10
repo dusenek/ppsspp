@@ -1,3 +1,4 @@
+
 // Copyright (c) 2012- PPSSPP Project.
 
 // This program is free software: you can redistribute it and/or modify
@@ -386,6 +387,7 @@ public:
 	float fDInputAnalogInverseDeadzone;
 	float fDInputAnalogSensitivity;
 
+	// We also use the XInput settings as analog settings on other platforms like Android.
 	float fXInputAnalogDeadzone;
 	int iXInputAnalogInverseMode;
 	float fXInputAnalogInverseDeadzone;
